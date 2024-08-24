@@ -1,0 +1,84 @@
+*{
+    padding:0%
+    margin:0%
+    box-sizeing:border-box;
+}
+
+ul{
+    background-color: black;
+    display: flex;
+    gap: 1rem;
+    font: size 25px;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+li:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+a:link{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:visited{
+    color: rgb(57, 14, 214);
+}
+
+p{
+    text-align: justify;
+}
+h3{
+    gap: 4rem;
+}
+
+/* ene of nevabar*/
+
+
+body{
+    background-color: white;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container{
+    width: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem;
+    margin: auto 3rem;
+}
+.card{
+    background-color:;
+    height: 300px;
+    width: 300px;
+    border-radius:2px;
+}
+img{
+    height: 150px;
+    width: 120px;
+    display: ;
+    margin: auto;
+}
+h2{
+    font-size: 10px;
+    color: brown;
+    text-align: center;
+    
+}
+.img{
+    align-items: left;
+}
+a{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: ;
+}

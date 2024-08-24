@@ -1,0 +1,45 @@
+*{
+    padding:0%
+    margin:0%
+    box-sizeing:border;
+}
+
+ul{
+    background-color: black;
+    display: flex;
+    gap: 2rem;
+    align-content: center;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+li:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
+a:link{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:visited{
+    color: rgb(57, 14, 214);
+}
+
+p{
+    text-align: justify;
+}
+h3{
+    gap: 4rem;
+}
+h4{
+    text-align: center;
+    background-color: aliceblue;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

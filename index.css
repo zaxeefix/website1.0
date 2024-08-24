@@ -1,0 +1,41 @@
+*{
+    padding:0%
+    margin:0%
+    box-sizeing:border;
+}
+
+ul{
+    background-color: black;
+    display: flex;
+    gap: 2rem;
+    align-content: center;
+}
+
+li{
+    list-style: none;
+    padding: 10px;
+}
+
+li:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+a:link{
+    color: darkblue;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a:visited{
+    color:green;
+}
+
+p{
+    text-align: justify;
+}
+h3{
+    gap: 4rem;
+}
+
+    
